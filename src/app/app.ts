@@ -1,5 +1,6 @@
 import { Component, signal } from '@angular/core';
 import { PizzaToppings } from './pizza-toppings/pizza-toppings';
+import { ZsmuckerbryanChecklist } from './zsmuckerbryan-checklist/zsmuckerbryan-checklist';
 import { TsteeleMultiplication } from './tsteele-multiplication/tsteele-multiplication';
 import { CbaresDiceRoll } from './cbares-dice-roll/cbares-dice-roll';
 
@@ -9,6 +10,7 @@ import { CbaresDiceRoll } from './cbares-dice-roll/cbares-dice-roll';
     PizzaToppings,
     TsteeleMultiplication,
     CbaresDiceRoll,
+    ZsmuckerbryanChecklist,
   ],
   templateUrl: './app.html',
   styleUrl: './app.css'
